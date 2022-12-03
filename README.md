@@ -10,28 +10,17 @@
 <h3 align="center">2022 Advent of Code</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    2022 Advent of Code Solution
   </p>
 </div>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Repo
+The repo contains my solutions to solve the 2022 Advent of Code Challenge. For those unfamiliar 'Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as interview prep, company training, university coursework, practice problems, a speed contest, or to challenge each other' - From the [Advent of Code](https://adventofcode.com/) websit. 
 
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-
+I first learned about the challenge in 2021 and quickly loved the challenge of it. I highly recommend the challenges for anyone looking to improve their problem solving & programming skills. It's a fun way to track your development as a programmer, a few days into the 2022 challenge, I can already see how much I've developed since 2021. Check out my solutions!
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -40,7 +29,7 @@ To run any solutions - clone the repo & run the .py scripts in your favorite edi
 
 <!-- CONTACT -->
 ## Contact
-Your Name - ratterman@amendllc.com
+Joe Ratterman - ratterman@amendllc.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <a href="https://www.flaticon.com/free-icons/christmas" title="christmas icons">Christmas icons created by iconixar - Flaticon</a>
