@@ -9,9 +9,6 @@
 
 <h3 align="center">2022 Advent of Code</h3>
 
-  <p align="center">
-    2022 Advent of Code Solution
-  </p>
 </div>
 
 
