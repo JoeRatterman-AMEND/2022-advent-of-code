@@ -1,6 +1,0 @@
-example-parameter: true
-example-list:
-  item-1: 1
-  item-2: "two"
-  item-3: 'image/url.com'
-example-empty:

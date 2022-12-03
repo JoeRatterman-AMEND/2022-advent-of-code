@@ -1,7 +1,5 @@
 # Load required packages
-import numpy as np
 import os
-
 
 # Define input file name
 file_name = "day_1.txt"
