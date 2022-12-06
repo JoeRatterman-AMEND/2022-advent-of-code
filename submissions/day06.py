@@ -15,6 +15,7 @@ input_list = list(input_data[0])
 # Define counter
 cntr = 0
 
+# Loop through all characters in string
 for i in range(len(input_list)):
 
     # Update counter
@@ -38,17 +39,17 @@ print(f"Answer #1: {cntr} characters")
 # Define counter
 cntr = 0
 
+# Loop through all characters in string
 for i in range(len(input_list)):
 
     # Update counter
     cntr += 1
 
-    # If > 4 character check if we have unique market
+    # If > 14 character check if we have unique market
     if i >=14:
 
         # Create list of last 14 values
         msg_list = list(input_list[(i-13):(i+1)])
-        print(len(msg_list))
         
         # Create counts of each letter
         count_dict = Counter(msg_list)
