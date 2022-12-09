@@ -159,5 +159,5 @@ for i in range(len(input_data)):
        
     
 # Answer #2
-print(f"Answer #3: {len(set(step_dict[9]))} positions visited.")
+print(f"Answer #2: {len(set(step_dict[9]))} positions visited.")
  
