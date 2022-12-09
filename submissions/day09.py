@@ -9,8 +9,8 @@ file_path = f"C:/Users/{os.getlogin()}/Documents/GitHub/2022-advent-of-code/inpu
 input_data = open(file_path, 'r').read().split('\n')
 
 # Define starting point
-h_loc = [500, 500]
-t_loc = [500, 500]
+h_loc = [0, 0]
+t_loc = [0, 0]
 
 # Define direction dict
 dir_dict = {"R":(0, 1), "L": (0, -1), "U": (1, 0), "D": (-1, 0)}
@@ -80,8 +80,8 @@ print(f"Answer #1: {len(set(step_list))} positions visited.")
 ### Problem 2 ----------------------------------------------------------------------------------
 
 # Define starting point
-h_loc = [500, 500]
-t_loc = [500, 500]
+h_loc = [0, 0]
+t_loc = [0, 0]
 
 # Define direction dict
 dir_dict = {"R":(0, 1), "L": (0, -1), "U": (1, 0), "D": (-1, 0)}
