@@ -67,7 +67,7 @@ cyc = 1
 # Create master result list
 mast_list = []
 
-# LOop through 6 rows
+# Loop through 6 rows
 for q in range(0,6):
 
     # Create current row result list
