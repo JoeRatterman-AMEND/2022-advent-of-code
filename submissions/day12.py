@@ -94,7 +94,7 @@ cntr = 0
 while pq:
 
     # Pull lowest cost
-    cost, row, col = pq.popleft()#heap.heappop(pq)
+    cost, row, col = pq.popleft()
 
     # Loop through adjacent nodes
     for adjNode in graph[(row, col)]:
@@ -138,7 +138,6 @@ matrix_height = len(input_matrix)
 # Create graph dict for results
 graph = defaultdict(list)
 
-
 # Loop through to determine possible paths
 for edge in vert_list:
 
@@ -155,7 +154,7 @@ for edge in vert_list:
             if (a >= 0 and b >= 0 and a < matrix_height and b < matrix_len):
               
                 # Check if neighbor is viable step
-                if letter_list.index(input_matrix[edge[0], edge[1]]) - letter_list.index(input_matrix[a,b]) == 1 or letter_list.index(input_matrix[edge[0], edge[1]]) - letter_list.index(input_matrix[a,b]) <= 0:
+                if letter_list.index(input_matrix[edge[0], edge[1]]) - letter_list.index(input_matrix[a,b]) <= 1:
 
                     graph[tuple(((edge[0], edge[1])))].append(tuple((a,b)))
 
@@ -176,12 +175,13 @@ cntr = 0
 while pq:
 
     # Pull lowest cost
-    cost, row, col = pq.popleft()#heap.heappop(pq)
+    cost, row, col = pq.popleft()
    
     # Loop through adjacent nodes
     for adjNode in graph[(row, col)]:
         if adjNode in visited:	continue
 
+        # Update visited list & deque
         visited.add((adjNode[0], adjNode[1]))
         pq.append((cost + 1, adjNode[0], adjNode[1]))
 
